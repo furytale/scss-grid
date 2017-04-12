@@ -1,0 +1,19 @@
+1. border-box property
+   позволяет значения padding и border вычитать из ширины и длины блока,
+   т.е. в нашем примере div останется с фиксированными параметрами, но для контента останется 60х60 px
+2. mixin ― пользовательские функции (rounded-corners, border-box)
+3. clearfix - помогает избавиться от несоответствий отображения элементов верстки в разных браузерах:
+   .clearfix:before,
+   .clearfix:after {
+       content: " ";
+       display: table;
+   }
+
+   .clearfix:after {
+       clear: both;
+   }
+
+   /* IE6/7 support */
+   .clearfix {
+       *zoom: 1;
+   }
