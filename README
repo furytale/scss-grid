@@ -1,3 +1,5 @@
+Run sass command with: "npm run sass"
+
 1. border-box property
    позволяет значения padding и border вычитать из ширины и длины блока,
    т.е. в нашем примере div останется с фиксированными параметрами,
@@ -6,7 +8,7 @@
 3. clearfix - помогает избавиться от несоответствий отображения
    элементов верстки в разных браузерах:
 
-   
+
    .clearfix:before,
    .clearfix:after {
        content: " ";
