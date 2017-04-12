@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/furytale/scss-grid/issues"
   },
-  "homepage": "https://github.com/furytale/scss-grid#readme"
+  "homepage": "https://github.com/furytale/scss-grid#readme",
+  "dependencies": {
+    "node-sass": "^4.5.2"
+  }
 }
